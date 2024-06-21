@@ -1,5 +1,8 @@
 from flask import *
 import pymysql
+
+import hash_function
+
 app = Flask(__name__)
 
 # Routes Here
