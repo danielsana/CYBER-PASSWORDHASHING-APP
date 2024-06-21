@@ -9,7 +9,8 @@ def home():
 
 @app.route('/signup', methods=['POST', 'GET'])
 def signup():
-    # Check if form was posted by user
+        #Check if form was posted by user
+        #create a function
     if request.method == 'POST':
             return render_template('signup.html', msg='Application Made Successfully')
     else:
